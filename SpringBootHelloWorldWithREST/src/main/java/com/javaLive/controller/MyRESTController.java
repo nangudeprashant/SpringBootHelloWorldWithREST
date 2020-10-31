@@ -7,16 +7,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyRESTController {
 	@RequestMapping("/hello")
 	public String home() {
-	return "Spring boot is working!";
+	return "This project demonstrates how to use REST web services with Spring boot application.";
 	}
 	
 	@RequestMapping("/result1")
 	public String result1() {
-	return "Spring boot is working!\nThis is result1.";
+	return "This project demonstrates how to use REST web services with Spring boot application.\nThis is result1.";
 	}
 	
 	@RequestMapping("/result2")
 	public String result2() {
-	return "Spring boot is working!\nThis is result2.";
+	return "This project demonstrates how to use REST web services with Spring boot application.\nThis is result2.";
 	}
 }
